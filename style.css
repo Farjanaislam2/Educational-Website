@@ -12,18 +12,16 @@
     }
 }
 
-@media screen and(max-width: 992) and (min-width:768) {
-    h1 {}
+@media only screen and(max-width: 768) and (min-width:576) {
+    h1 {
+        padding-top: 50px;
+    }
 
     .header_title {
-        font-size: 5px;
+        font-size: 2px;
         word-spacing: 0%;
         display: none;
     }
 
-    .courses {
-        display: flex;
-        flex-direction: row;
 
-    }
 }
