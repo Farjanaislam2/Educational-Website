@@ -1,0 +1,29 @@
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2px;
+        padding-top: 20px;
+
+    }
+
+    .header_title {
+        font-size: 5px;
+        word-spacing: 0%;
+        display: none;
+    }
+}
+
+@media screen and(max-width: 992) and (min-width:768) {
+    h1 {}
+
+    .header_title {
+        font-size: 5px;
+        word-spacing: 0%;
+        display: none;
+    }
+
+    .courses {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
